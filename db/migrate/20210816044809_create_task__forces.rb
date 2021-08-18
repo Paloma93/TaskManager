@@ -1,8 +1,8 @@
-class CreateTasks < ActiveRecord::Migration[6.0]
+class CreateTaskForces < ActiveRecord::Migration[6.0]
   def change
-    create_table :tasks do |t|
+    create_table :task__forces do |t|
       t.string :title
-      t.text :detail
+      t.text :details
       t.boolean :completed
       t.string :=
 

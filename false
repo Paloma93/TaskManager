@@ -1,1 +1,6 @@
       invoke  active_record
+      create    db/migrate/20210816044809_create_task__forces.rb
+      create    app/models/task__force.rb
+      invoke    test_unit
+      create      test/models/task__force_test.rb
+      create      test/fixtures/task__forces.yml
