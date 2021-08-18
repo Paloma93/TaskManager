@@ -1,2 +1,0 @@
-class TaskForce < ApplicationRecord
-end
